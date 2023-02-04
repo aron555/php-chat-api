@@ -1,9 +1,9 @@
 <?php
   
-  @include_once("./fixtures/users.php");
-  @include_once("./fixtures/chats.php");
-  @include_once("./fixtures/chatParticipants.php");
-  @include_once("./fixtures/messages.php");
+  @include("./fixtures/users.php");
+  @include("./fixtures/chats.php");
+  @include("./fixtures/chatParticipants.php");
+  @include("./fixtures/messages.php");
   @include_once __DIR__ . "/../config.php";
   
   class DbController

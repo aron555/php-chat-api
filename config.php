@@ -1,7 +1,4 @@
 <?php
-  
-  $config = [
-    "mode" => "development",
-//    "mode" => "production",
-//    "mode" => "test",
-  ];
+$config = [
+    "mode" => "development", // development, production, test
+];
